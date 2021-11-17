@@ -1,0 +1,17 @@
+Instructions:
+In this folder there is a form (index.html). Break up the form into three steps and add validation.
+
+If the user attempts to leave the form at any step, show a pop-over modal asking the user to call an agent, and present them with a phone number. Make it look nice!
+
+Validation rules:
+  - Values must not be empty
+  - Only valid emails must be allowed through
+  - Only phones in the following format must be allowed through ###-###-####
+  - If the form is valid, the form must reply with an Alert, specifying that the values are valid
+  - If the form is not valid, the fields must turn red and some sort of notification must be shown
+
+At form submission, the data collected should be written to a file in properly formatted json.
+
+Add appropriate comments to indicate what changes you made and why.
+
+Zip up your results and return.
